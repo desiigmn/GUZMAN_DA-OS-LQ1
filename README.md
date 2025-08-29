@@ -1,1 +1,0 @@
-# GUZMAN_DA-OS-LQ1
