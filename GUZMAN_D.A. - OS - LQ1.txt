@@ -1,0 +1,176 @@
+Microsoft Windows [Version 10.0.26100.4351]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\desir>cd Downloads
+
+C:\Users\desir\Downloads>mkdir "GUZMAN_DA - OS - LQ1"
+
+C:\Users\desir\Downloads>cd "GUZMAN_DA - OS - LQ1"
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1>mkdir src common installer cache user
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1>cd src
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\src>mkdir a\b\c\d\e\f\g
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\src>cd..
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1>cd common
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\common>mkdir h\i\j\k\l\m
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\common>cd..
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1>cd installer
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\installer>mkdir installer_folder
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\installer>cd..
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1>cd cache
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\cache>mkdir a b c d e f g h ij kl m n o p q r s t u v w x y z
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\cache>mkdir 1 2 3 4 5 6 7 8 910
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\cache>cd..
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1>cd user
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>mkdir user_jerico user_eliza user_juan
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>cd user_jerico
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico>mkdir user_profile user_settings user_preferences
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico>cd user_profile
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico\user_profilemkdir "Jerico Estabillo"
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico\user_profilecd..
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico>cd user_settings
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico\user_settings>mkdir OSversion AppVersion
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico\user_settings>cd..\..
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>xcopy "user_jerico\*" "user_eliza" /E /I
+0 File(s) copied
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>xcopy "user_jerico\*" "user_juan" /E /I
+0 File(s) copied
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>rename "user_eliza\user_profile\Jerico Estabillo" "Eliza Taylor"
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>rename "user_juan\user_profile\Jerico Estabillo" "Juan Pablo"
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>cd user_jerico\user_settings\AppVersion
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico\user_settings\AppVersion>mkdir sampleApp_v2 sampleAppv3 sampleApp_v5
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user\user_jerico\user_settings\AppVersion>cd..\..\..
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>move "user_jerico\user_settings\AppVersion\sampleAppv3" "user_eliza\user_settings\AppVersion"
+        1 dir(s) moved.
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>move "user_jerico\user_settings\AppVersion\sampleApp_v5" "user_juan\user_settings\AppVersion"
+        1 dir(s) moved.
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>rename user_jerico\user_preferences mode & move user_jerico\mode ..\installer
+        1 dir(s) moved.
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>rename user_eliza\user_preferences mode & move user_eliza\mode ..\installer
+Overwrite C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\installer\mode? (Yes/No/All): no
+        1 dir(s) moved.
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>rename user_juan\user_preferences mode & move user_juan\mode ..\installer
+Overwrite C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\installer\mode? (Yes/No/All): no
+        1 dir(s) moved.
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1\user>cd..
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1>tree
+Folder PATH listing for volume Acer
+Volume serial number is A241-B564
+C:.
+├───cache
+│   ├───1
+│   ├───10
+│   ├───2
+│   ├───3
+│   ├───4
+│   ├───5
+│   ├───6
+│   ├───7
+│   ├───8
+│   ├───9
+│   ├───a
+│   ├───b
+│   ├───c
+│   ├───d
+│   ├───e
+│   ├───f
+│   ├───g
+│   ├───h
+│   ├───i
+│   ├───j
+│   ├───kl
+│   ├───m
+│   ├───n
+│   ├───o
+│   ├───p
+│   ├───q
+│   ├───r
+│   ├───s
+│   ├───t
+│   ├───u
+│   ├───v
+│   ├───w
+│   ├───x
+│   ├───y
+│   └───z
+├───common
+│   └───h
+│       └───i
+│           └───j
+│               └───k
+│                   └───l
+│                       └───m
+├───installer
+│   ├───installer_folder
+│   └───mode
+├───src
+│   └───a
+│       └───b
+│           └───c
+│               └───d
+│                   └───e
+│                       └───f
+│                           └───g
+└───user
+    ├───user_eliza
+    │   ├───mode
+    │   ├───user_profile
+    │   │   └───Eliza Taylor
+    │   └───user_settings
+    │       ├───AppVersion
+    │       │   └───sampleAppv3
+    │       └───OSversion
+    ├───user_jerico
+    │   ├───user_profile
+    │   │   └───Jerico Estabillo
+    │   └───user_settings
+    │       ├───AppVersion
+    │       │   └───sampleApp_v2
+    │       └───OSversion
+    └───user_juan
+        ├───mode
+        ├───user_profile
+        │   └───Juan Pablo
+        └───user_settings
+            ├───AppVersion
+            │   └───sampleApp_v5
+            └───OSversion
+
+C:\Users\desir\Downloads\GUZMAN_DA - OS - LQ1>
